@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "Define Redux actions as classes and avoid code repetition in TypeScript",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc -p .",
     "test": "tsc -p ./tsconfig.test.json && mocha ./dist/test/"
   },
+  "files": [
+    "./dist/index.d.ts",
+    "./dist/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rikuba/typed-action-class.git"
