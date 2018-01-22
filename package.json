@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/rikuba/typed-action-class/issues"
   },
-  "homepage": "https://github.com/rikuba/typed-action-class#readme"
+  "homepage": "https://github.com/rikuba/typed-action-class#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
 }
