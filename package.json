@@ -1,0 +1,26 @@
+{
+  "name": "typed-action-class",
+  "version": "1.0.0",
+  "description": "Define Redux actions as classes and avoid code repetition in TypeScript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikuba/typed-action-class.git"
+  },
+  "keywords": [
+    "redux",
+    "action",
+    "typescript",
+    "class",
+    "fsa"
+  ],
+  "author": "rikuba <rikuba@live.jp>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/rikuba/typed-action-class/issues"
+  },
+  "homepage": "https://github.com/rikuba/typed-action-class#readme"
+}
