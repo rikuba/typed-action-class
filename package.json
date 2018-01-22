@@ -10,8 +10,8 @@
     "test": "tsc -p ./tsconfig.test.json && mocha ./dist/test/"
   },
   "files": [
-    "./dist/index.d.ts",
-    "./dist/index.js"
+    "dist/index.d.ts",
+    "dist/index.js"
   ],
   "repository": {
     "type": "git",
