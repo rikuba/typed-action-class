@@ -1,6 +1,6 @@
 {
   "name": "typed-action-class",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Define Redux actions as classes and avoid code repetition in TypeScript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
