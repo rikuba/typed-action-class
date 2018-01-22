@@ -2,6 +2,10 @@
 
 Define Redux actions as classes and avoid code repetition in TypeScript.
 
+- There is only 2 APIs
+- There is no middleware
+- It does not affect to reducer
+
 By using this module,
 
 - Simple actions can be written with 1 liner (You don't need to write functions that map argument to payload)
@@ -12,15 +16,6 @@ By using this module,
 ```sh
 npm install typed-action-class
 ```
-
-## API
-
-`typed-action-class` provide only 2 APIs.
-
-- `Action` function
-- `UniteActions` type
-
-See next section for more details.
 
 ## Usage
 
@@ -93,7 +88,7 @@ import { SelectSubreddit } from '../actions';
 
 const mapDispatchToProps = (dispatch: Dispatch<State>) => ({
   handleChange: (value: string) => {
-    dispatch(new SelectSubreddit(value));
+    dispatch(new SelectSubreddit({ subreddit: value }));
   }
 });
 ```
